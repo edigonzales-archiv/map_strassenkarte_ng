@@ -1,0 +1,97 @@
+<VRTDataset rasterXSize="4375" rasterYSize="3000">
+  <SRS>PROJCS["CH1903 / LV03",GEOGCS["CH1903",DATUM["CH1903",SPHEROID["Bessel 1841",6377397.155,299.1528128000008,AUTHORITY["EPSG","7004"]],AUTHORITY["EPSG","6149"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4149"]],PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],PARAMETER["latitude_of_center",46.95240555555556],PARAMETER["longitude_of_center",7.439583333333333],PARAMETER["azimuth",90],PARAMETER["rectified_grid_angle",90],PARAMETER["scale_factor",1],PARAMETER["false_easting",600000],PARAMETER["false_northing",200000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","21781"]]</SRS>
+  <GeoTransform>  6.0250000000000000e+05,  2.0000000000000000e+00,  0.0000000000000000e+00,  2.3300000000000000e+05,  0.0000000000000000e+00, -2.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm110733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm110734.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="2187" yOff="0" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm112711.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="0" yOff="1500" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm112712.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="2187" yOff="1500" xSize="2188" ySize="1500" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm110733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm110734.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="2187" yOff="0" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm112711.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="0" yOff="1500" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm112712.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="2187" yOff="1500" xSize="2188" ySize="1500" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm110733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm110734.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="2187" yOff="0" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm112711.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="0" yOff="1500" xSize="2188" ySize="1500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">basisplan-relief-dtm112712.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2188" RasterYSize="1500" DataType="Byte" BlockXSize="2188" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2188" ySize="1500" />
+      <DstRect xOff="2187" yOff="1500" xSize="2188" ySize="1500" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
