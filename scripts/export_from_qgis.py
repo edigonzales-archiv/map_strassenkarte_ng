@@ -44,7 +44,7 @@ for feature in iter:
     # Rasterfile exportieren
 #    img = QImage(QSize(width,  height), QImage.Format_RGB32)
 #    img = QImage(QSize(width,  height), QImage.Format_ARGB32)  
-    img = QImage(QSize(width,  height), QImage.Format_ARGB32_Premultiplied)
+    img = QImage(QSize(width, height), QImage.Format_ARGB32_Premultiplied)
     img.setDotsPerMeterX(dpi / 25.4 * 1000)
     img.setDotsPerMeterY(dpi / 25.4 * 1000)
     
@@ -61,15 +61,15 @@ for feature in iter:
     render.render(p)
     p.end()
     
-#    img.save("/tmp/"+filename+".tif","tiff")    
+    img.save("/tmp/"+filename+".png","png")    
 
-    imgwriter = QImageWriter("/tmp/"+filename+".tif",  "tiff")
-    imgwriter.setCompression(1)
-    imgwriter.write(img)
+#    imgwriter = QImageWriter("/tmp/"+filename+".tif",  "tiff")
+#    imgwriter.setCompression(1)
+#    imgwriter.write(img)
     
     # Worldfile speichern
     res = dx/width
-    with open("/tmp/"+filename+".tfw", 'w') as outfile:
+    with open("/tmp/"+filename+".pngw", 'w') as outfile:
         outfile.write(str(res))
         outfile.write("\n")
         outfile.write("0.0")
