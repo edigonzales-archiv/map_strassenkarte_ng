@@ -59,10 +59,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>596452.36322483594994992</xmin>
-            <ymin>226011.75768873063498177</ymin>
-            <xmax>606542.60901895340066403</xmax>
-            <ymax>234021.9966744116100017</ymax>
+            <xmin>604455.15799278381746262</xmin>
+            <ymin>225385.78845127322711051</ymin>
+            <xmax>610487.65799893799703568</xmax>
+            <ymax>230174.74678949220106006</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -163,6 +163,137 @@
             </legendlayer>
         </legendgroup>
     </legend>
+    <Composer title="Composer 1" visible="0">
+        <Composition gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="10" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+            <symbol alpha="1" type="fill" name="">
+                <layer pass="0" class="SimpleFill" locked="0">
+                    <prop k="border_width_map_unit_scale" v="0,0"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="joinstyle" v="miter"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_map_unit_scale" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="outline_color" v="0,0,0,255"/>
+                    <prop k="outline_style" v="no"/>
+                    <prop k="outline_width" v="0.26"/>
+                    <prop k="outline_width_unit" v="MM"/>
+                    <prop k="style" v="solid"/>
+                </layer>
+            </symbol>
+            <ComposerMap mapRotation="0" keepLayerSet="false" id="1" previewMode="Cache" drawCanvasItems="true">
+                <Extent ymin="223527.45961697542225011" xmin="603518.58964051783550531" ymax="230375.43391263808007352" xmax="612783.49604053201619536"/>
+                <LayerSet/>
+                <Grid/>
+                <ComposerMapGrid leftAnnotationDirection="0" annotationFont="Ubuntu,11,-1,5,50,0,0,0,0,0" gridFramePenThickness="0.5" showAnnotation="0" bottomAnnotationDirection="0" bottomAnnotationPosition="1" name="Grid 1" gridStyle="0" intervalX="0" intervalY="0" gridFrameStyle="0" rightAnnotationPosition="1" topAnnotationDirection="0" leftAnnotationPosition="1" blendMode="0" show="0" frameFillColor1="255,255,255,255" gridFrameWidth="2" frameFillColor2="0,0,0,255" annotationFontColor="0,0,0,255" gridFramePenColor="0,0,0,255" offsetX="0" annotationPrecision="3" offsetY="0" uuid="{35804dfa-f9c4-49ef-9591-475d3a3909d5}" frameAnnotationDistance="1" unit="0" topAnnotationPosition="1" rightAnnotationDirection="0" annotationFormat="0" crossLength="3">
+                    <lineStyle>
+                        <symbol alpha="1" type="line" name="">
+                            <layer pass="0" class="SimpleLine" locked="0">
+                                <prop k="capstyle" v="square"/>
+                                <prop k="customdash" v="5;2"/>
+                                <prop k="customdash_map_unit_scale" v="0,0"/>
+                                <prop k="customdash_unit" v="MM"/>
+                                <prop k="draw_inside_polygon" v="0"/>
+                                <prop k="joinstyle" v="bevel"/>
+                                <prop k="line_color" v="0,0,0,255"/>
+                                <prop k="line_style" v="solid"/>
+                                <prop k="line_width" v="0"/>
+                                <prop k="line_width_unit" v="MM"/>
+                                <prop k="offset" v="0"/>
+                                <prop k="offset_map_unit_scale" v="0,0"/>
+                                <prop k="offset_unit" v="MM"/>
+                                <prop k="use_custom_dash" v="0"/>
+                                <prop k="width_map_unit_scale" v="0,0"/>
+                            </layer>
+                        </symbol>
+                    </lineStyle>
+                    <markerStyle>
+                        <symbol alpha="1" type="marker" name="">
+                            <layer pass="0" class="SimpleMarker" locked="0">
+                                <prop k="angle" v="0"/>
+                                <prop k="color" v="0,0,0,255"/>
+                                <prop k="horizontal_anchor_point" v="1"/>
+                                <prop k="name" v="circle"/>
+                                <prop k="offset" v="0,0"/>
+                                <prop k="offset_map_unit_scale" v="0,0"/>
+                                <prop k="offset_unit" v="MM"/>
+                                <prop k="outline_color" v="0,0,0,255"/>
+                                <prop k="outline_style" v="solid"/>
+                                <prop k="outline_width" v="0"/>
+                                <prop k="outline_width_map_unit_scale" v="0,0"/>
+                                <prop k="outline_width_unit" v="MM"/>
+                                <prop k="scale_method" v="area"/>
+                                <prop k="size" v="2"/>
+                                <prop k="size_map_unit_scale" v="0,0"/>
+                                <prop k="size_unit" v="MM"/>
+                                <prop k="vertical_anchor_point" v="1"/>
+                            </layer>
+                        </symbol>
+                    </markerStyle>
+                </ComposerMapGrid>
+                <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.10856" positionMode="0" positionLock="false" x="5" y="0" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="276" outlineWidth="0.3" uuid="{42ddc636-9c4d-43e6-951f-3ca64dbfcb8d}" height="204" itemRotation="0" frame="false" pagex="5">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+            <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+                <Extent ymin="216098.5249651997582987" xmin="594850.29844335012603551" ymax="221723.07821368111763149" xmax="602827.98111211450304836"/>
+                <LayerSet/>
+                <Grid/>
+                <ComposerMapGrid leftAnnotationDirection="0" annotationFont="Ubuntu,11,-1,5,50,0,0,0,0,0" gridFramePenThickness="0.5" showAnnotation="0" bottomAnnotationDirection="0" bottomAnnotationPosition="1" name="Grid 1" gridStyle="0" intervalX="0" intervalY="0" gridFrameStyle="0" rightAnnotationPosition="1" topAnnotationDirection="0" leftAnnotationPosition="1" blendMode="0" show="0" frameFillColor1="255,255,255,255" gridFrameWidth="2" frameFillColor2="0,0,0,255" annotationFontColor="0,0,0,255" gridFramePenColor="0,0,0,255" offsetX="0" annotationPrecision="3" offsetY="0" uuid="{211d8f84-318a-44f1-9fec-374602eeada0}" frameAnnotationDistance="1" unit="0" topAnnotationPosition="1" rightAnnotationDirection="0" annotationFormat="0" crossLength="3">
+                    <lineStyle>
+                        <symbol alpha="1" type="line" name="">
+                            <layer pass="0" class="SimpleLine" locked="0">
+                                <prop k="capstyle" v="square"/>
+                                <prop k="customdash" v="5;2"/>
+                                <prop k="customdash_map_unit_scale" v="0,0"/>
+                                <prop k="customdash_unit" v="MM"/>
+                                <prop k="draw_inside_polygon" v="0"/>
+                                <prop k="joinstyle" v="bevel"/>
+                                <prop k="line_color" v="0,0,0,255"/>
+                                <prop k="line_style" v="solid"/>
+                                <prop k="line_width" v="0"/>
+                                <prop k="line_width_unit" v="MM"/>
+                                <prop k="offset" v="0"/>
+                                <prop k="offset_map_unit_scale" v="0,0"/>
+                                <prop k="offset_unit" v="MM"/>
+                                <prop k="use_custom_dash" v="0"/>
+                                <prop k="width_map_unit_scale" v="0,0"/>
+                            </layer>
+                        </symbol>
+                    </lineStyle>
+                    <markerStyle>
+                        <symbol alpha="1" type="marker" name="">
+                            <layer pass="0" class="SimpleMarker" locked="0">
+                                <prop k="angle" v="0"/>
+                                <prop k="color" v="0,0,0,255"/>
+                                <prop k="horizontal_anchor_point" v="1"/>
+                                <prop k="name" v="circle"/>
+                                <prop k="offset" v="0,0"/>
+                                <prop k="offset_map_unit_scale" v="0,0"/>
+                                <prop k="offset_unit" v="MM"/>
+                                <prop k="outline_color" v="0,0,0,255"/>
+                                <prop k="outline_style" v="solid"/>
+                                <prop k="outline_width" v="0"/>
+                                <prop k="outline_width_map_unit_scale" v="0,0"/>
+                                <prop k="outline_width_unit" v="MM"/>
+                                <prop k="scale_method" v="area"/>
+                                <prop k="size" v="2"/>
+                                <prop k="size_map_unit_scale" v="0,0"/>
+                                <prop k="size_unit" v="MM"/>
+                                <prop k="vertical_anchor_point" v="1"/>
+                            </layer>
+                        </symbol>
+                    </markerStyle>
+                </ComposerMapGrid>
+                <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="3.10856" positionMode="0" positionLock="false" x="8" y="9" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="278" outlineWidth="0.3" uuid="{17d546f8-c0f9-47fc-9893-83a4d0fc88c2}" height="196" itemRotation="0" frame="false" pagex="8">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
     <projectlayers layercount="11">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>basiplan_relief_dtm20140831164731709</id>
@@ -232,22 +363,18 @@
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="color" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="255,0,0,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.66"/>
-                            <prop k="line_width_unit" v="MM"/>
-                            <prop k="offset" v="0"/>
+                            <prop k="offset" v="0,0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="outline_color" v="255,0,0,255"/>
+                            <prop k="outline_style" v="no"/>
+                            <prop k="outline_width" v="0.66"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -282,10 +409,10 @@
                 <property key="labeling/distMapUnitMinScale" value="0"/>
                 <property key="labeling/enabled" value="false"/>
                 <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Ubuntu"/>
-                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontItalic" value="true"/>
                 <property key="labeling/fontLetterSpacing" value="0"/>
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
@@ -296,7 +423,7 @@
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWeight" value="75"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="true"/>
@@ -927,37 +1054,20 @@
                 <symbols>
                     <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="1">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="5;2"/>
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="customdash" v="3;1"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MapUnit"/>
+                            <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="134,67,0,255"/>
+                            <prop k="line_color" v="242,191,242,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="100"/>
-                            <prop k="line_width_unit" v="MapUnit"/>
+                            <prop k="line_width" v="0.8"/>
+                            <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MapUnit"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                        </layer>
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MapUnit"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="192,223,255,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="58.9041"/>
-                            <prop k="line_width_unit" v="MapUnit"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MapUnit"/>
-                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="use_custom_dash" v="1"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
@@ -1108,9 +1218,9 @@
                 <property key="labeling/xOffset" value="0"/>
                 <property key="labeling/yOffset" value="0"/>
             </customproperties>
-            <blendMode>0</blendMode>
+            <blendMode>6</blendMode>
             <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>0</layerTransparency>
+            <layerTransparency>60</layerTransparency>
             <displayfield>FID</displayfield>
             <label>0</label>
             <labelattributes>
@@ -1487,7 +1597,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>maske_kantonsgrenze_copy20140831194203384</id>
             <datasource>../../data/kantonsgrenze/kantonsgrenze.shp</datasource>
             <title></title>
@@ -2103,9 +2213,9 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
-                            <prop k="outline_color" v="0,0,0,255"/>
+                            <prop k="outline_color" v="0,170,255,255"/>
                             <prop k="outline_style" v="no"/>
-                            <prop k="outline_width" v="0.26"/>
+                            <prop k="outline_width" v="0"/>
                             <prop k="outline_width_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                         </layer>
