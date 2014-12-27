@@ -1,0 +1,69 @@
+STRASSEN
+========
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/gdal/gdal-dev/lib
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.6/dist-packages/GDAL-2.0.0-py2.6-linux-x86_64.egg
+
+/usr/local/gdal/gdal-dev/bin/ogr2ogr -f "SQLite" -dsco SPATIALITE=YES  -gt 65536 -progress --config OGR_SQLITE_SYNCHRONOUS OFF  -progress -s_srs epsg:4326 -t_srs epsg:21781 switzerland.db switzerland-latest.osm.pbf
+
+/usr/local/gdal/gdal-dev/bin/ogr2ogr -f "SQLite" -dsco SPATIALITE=YES  -gt 65536 -progress -s_srs epsg:4326 -t_srs epsg:21781 europe-latest.db europe-latest.osm.pbf
+/usr/local/gdal/gdal-dev/bin/ogr2ogr -f "SQLite" -dsco SPATIALITE=YES  -gt 65536 -progress --config OGR_SQLITE_SYNCHRONOUS OFF  -s_srs epsg:4326 -t_srs epsg:21781 europe-latest.db europe-latest.osm.pbf
+
+-> Layer "lines". In "multilinestrings" sind noch Eisenbahnstrecken etc. drin. Das aber kann alles aus AV genommen werden.
+
+ODER:
+
+http://download.geofabrik.de/europe.html 
+Shapes runterladen und transformieren:
+
+ogr2ogr -f "SQLite" -dsco SPATIALITE=YES -s_srs epsg:4326 -t_srs epsg:21781 21781/roads.db roads.shp
+
+
+GROSSE SEEN
+===========
+* "multipolygons" von pbf. 
+* "natural" = 'water'. 
+* Speichern als Shape. Skip attribut (wegen doppelte GEOMETRY)
+* Area berechnen > 5 km2
+* Rhone löschen
+* Tessiner Seen fehlen, Bodensee und Genfersee...
+OSM naja...
+
+Restliche Seen: Manuell das Gebiet in openstreetmap.org exportiert und in QGIS selektiert...
+
+BAUGEBIET
+=========
+TS2 aus AV
+
+WALD (Übersicht)
+================
+Richtplan $area > 50000
+
+AV
+==
+ogr2ogr --config PG_LIST_ALL_TABLES YES --config PG_SKIP_VIEWS YES -f "SQLite" av.sqlite -progress PG:"dbname='rosebud2' active_schema=av_mopublic schemas=av_mopublic host='localhost' port='5432' user='mspublic' password='mspublic' " -lco LAUNDER=yes -dsco SPATIALITE=yes -lco SPATIAL_INDEX=yes -gt 65536
+
+SRTM
+====
+gdal_merge.py -o srtm.tif srtm_38_03.tif srtm_39_03.tif 
+gdalwarp -s_srs epsg:4326 -t_srs epsg:21781 -r lanczos srtm.tif srtm_21781.tif
+gdaldem hillshade -alt 60 -az 270 -compute_edges srtm_21781.tif srtm_hillshade_tmp.tif 
+gdaldem color-relief srtm_hillshade_tmp.tif ramp.txt srtm_hillshade.tif
+-> Artefakte...
+
+gdaldem hillshade -s 111120 -alt 60 -az 270 -compute_edges srtm.tif srtm_hillshade_tmp.tif 
+gdaldem color-relief srtm_hillshade_tmp.tif ramp.txt srtm_hillshade.tif
+gdalwarp -s_srs epsg:4326 -t_srs epsg:21781 -r lanczos srtm_hillshade.tif srtm_hillshade_21781.tif
+
+
+gdalwarp -overwrite -te 420000 0 933000 350000 -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' -s_srs epsg:4326 -t_srs epsg:21781 -r lanczos srtm_hillshade.tif srtm_relief.tif
+
+gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief.tif 2 4 8 16 32 64 128
+
+Maske:
+gdalwarp -overwrite -s_srs epsg:21781 -t_srs epsg:21781 -dstalpha -r cubic -cutline ../kanton_solothurn_invers.shp  -cl kanton_solothurn_invers -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' srtm/srtm_relief.tif srtm_relief_crop.tif
+
+gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief_crop.tif 2 4 8 16 32 64 128
+
+420000/350000 933000/350000 933000/65000 
+
+
