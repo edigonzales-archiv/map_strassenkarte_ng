@@ -50,19 +50,29 @@ gdaldem hillshade -alt 60 -az 270 -compute_edges srtm_21781.tif srtm_hillshade_t
 gdaldem color-relief srtm_hillshade_tmp.tif ramp.txt srtm_hillshade.tif
 -> Artefakte...
 
+#Basisplan
+gdaldem hillshade -s 111120 -alt 45 -az 315 -compute_edges srtm.tif srtm_hillshade_tmp.tif 
+gdaldem color-relief srtm_hillshade_tmp.tif ramp_basisplan.txt srtm_hillshade.tif
+gdalwarp -overwrite -te 420000 0 933000 350000 -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' -s_srs epsg:4326 -t_srs epsg:21781 -r cubic srtm_hillshade.tif srtm_relief_basisplan.tif
+gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief_basisplan.tif 2 4 8 16 32 64 128
+gdalwarp -overwrite -s_srs epsg:21781 -t_srs epsg:21781 -dstalpha -r cubic -cutline kanton_solothurn_invers.shp  -cl kanton_solothurn_invers -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' srtm_relief_basisplan.tif srtm_relief_basisplan_crop.tif
+gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief_basisplan_crop.tif 2 4 8 16 32 64 128
+
+#ramp v1
 gdaldem hillshade -s 111120 -alt 60 -az 270 -compute_edges srtm.tif srtm_hillshade_tmp.tif 
 gdaldem color-relief srtm_hillshade_tmp.tif ramp.txt srtm_hillshade.tif
-gdalwarp -s_srs epsg:4326 -t_srs epsg:21781 -r lanczos srtm_hillshade.tif srtm_hillshade_21781.tif
-
-
-gdalwarp -overwrite -te 420000 0 933000 350000 -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' -s_srs epsg:4326 -t_srs epsg:21781 -r lanczos srtm_hillshade.tif srtm_relief.tif
-
+gdalwarp -overwrite -te 420000 0 933000 350000 -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' -s_srs epsg:4326 -t_srs epsg:21781 -r cubic srtm_hillshade.tif srtm_relief.tif
 gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief.tif 2 4 8 16 32 64 128
-
-Maske:
-gdalwarp -overwrite -s_srs epsg:21781 -t_srs epsg:21781 -dstalpha -r cubic -cutline ../kanton_solothurn_invers.shp  -cl kanton_solothurn_invers -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' srtm/srtm_relief.tif srtm_relief_crop.tif
-
+gdalwarp -overwrite -s_srs epsg:21781 -t_srs epsg:21781 -dstalpha -r cubic -cutline kanton_solothurn_invers.shp  -cl kanton_solothurn_invers -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' srtm_relief.tif srtm_relief_crop.tif
 gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief_crop.tif 2 4 8 16 32 64 128
+
+#grau
+gdaldem hillshade -s 111120 -alt 60 -az 270 -compute_edges srtm.tif srtm_hillshade_grau.tif 
+gdalwarp -overwrite -te 420000 0 933000 350000 -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' -s_srs epsg:4326 -t_srs epsg:21781 -r cubic srtm_hillshade_grau.tif srtm_relief_grau.tif
+gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief_grau.tif 2 4 8 16 32 64 128
+gdalwarp -overwrite -s_srs epsg:21781 -t_srs epsg:21781 -dstalpha -r cubic -cutline kanton_solothurn_invers.shp  -cl kanton_solothurn_invers -co 'TILED=YES' -co 'PROFILE=GeoTIFF' -co 'INTERLEAVE=PIXEL' -co 'COMPRESS=DEFLATE' -co 'BLOCKXSIZE=512' -co 'BLOCKYSIZE=512' srtm_relief_grau.tif srtm_relief_grau_crop.tif
+gdaladdo --config COMPRESS_OVERVIEW DEFLATE --config GDAL_TIFF_OVR_BLOCKSIZE 512 -r cubic srtm_relief_grau_crop.tif 2 4 8 16 32 64 128
+
 
 420000/350000 933000/350000 933000/65000 
 
