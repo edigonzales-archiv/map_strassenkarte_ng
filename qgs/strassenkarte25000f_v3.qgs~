@@ -3,9 +3,6 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ch_so_agi_orthofoto20141230190403054" name="ch.so.agi.orthofoto">
-            <customproperties/>
-        </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="v_strassenstueck_lokname20141230173020664" name="v_strassenstueck_lokname">
             <customproperties/>
         </layer-tree-layer>
@@ -45,7 +42,7 @@
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="richtplan_wald20141228192055663" name="richtplan_wald">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="baugebiet_ts220141228191837858" name="baugebiet_ts2">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="baugebiet_ts220141228191837858" name="baugebiet_ts2">
             <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_lakes20141228192634153" name="osm_lakes">
@@ -59,10 +56,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>607652.59320854011457413</xmin>
-            <ymin>227706.02229656567214988</ymin>
-            <xmax>608704.64398979011457413</xmax>
-            <ymax>228423.79573406567214988</ymax>
+            <xmin>595442.69313051621429622</xmin>
+            <ymin>223524.88820018529077061</ymin>
+            <xmax>605062.94314029137603939</xmax>
+            <ymax>230088.4115987038530875</ymax>
         </extent>
         <rotation>0</rotation>
         <projections>0</projections>
@@ -117,15 +114,9 @@
             <item>av_bb20141230181945250</item>
             <item>osm_roads_solothurn_220141230185430302</item>
             <item>bahngeleise20141230190315559</item>
-            <item>ch_so_agi_orthofoto20141230190403054</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ch.so.agi.orthofoto" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="ch_so_agi_orthofoto20141230190403054" visible="0"/>
-            </filegroup>
-        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="v_strassenstueck_lokname" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="v_strassenstueck_lokname20141230173020664" visible="1"/>
@@ -191,9 +182,9 @@
                 <legendlayerfile isInOverview="0" layerid="richtplan_wald20141228192055663" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="baugebiet_ts2" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="baugebiet_ts2" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="baugebiet_ts220141228191837858" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="baugebiet_ts220141228191837858" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm_lakes" showFeatureCount="0">
@@ -207,7 +198,7 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="17">
+    <projectlayers layercount="16">
         <maplayer minimumScale="-4.65661e-10" maximumScale="25000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>av_bb20141230181945250</id>
             <datasource>../data/av/av_bb.sqlite|layerid=0|subset="art" IN ('Gewaesser_fliessendes', 'geschlossener_Wald', 'Gebaeude')</datasource>
@@ -1101,44 +1092,6 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>ch_so_agi_orthofoto20141230190403054</id>
-            <datasource>crs=EPSG:21781&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.so.agi.orthofoto&amp;styles=&amp;tileMatrixSet=ch.so.agi.orthofoto-wmsc-8&amp;url=http://www.catais.org/mapcache</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>ch.so.agi.orthofoto</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Feature"/>
-            </customproperties>
-            <provider>wms</provider>
-            <noData>
-                <noDataList bandNo="1" useSrcNoData="0"/>
-            </noData>
-            <pipe>
-                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-                    <rasterTransparency/>
-                </rasterrenderer>
-                <brightnesscontrast brightness="0" contrast="0"/>
-                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-                <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="50000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>gemeindegrenzlinien_solothurn20141230164548300</id>
@@ -2393,7 +2346,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="250000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Line" simplifyMaxScale="10000" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="250000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Line" simplifyMaxScale="10000" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>osm_roads_solothurn_220141230185430302</id>
             <datasource>../data/strassen/osm_roads_solothurn_2.shp</datasource>
             <title></title>
@@ -2786,7 +2739,7 @@
                 <property key="labeling/dataDefined/BufferColor" value="1~~1~~CASE &#xa;WHEN &quot;highway&quot; = 'motorway' THEN  color_rgb( 250,158,37)&#xa;WHEN &quot;highway&quot; IN ('motorway_link','trunk','trunk_link','primary','primary_link') THEN color_rgb(255,225,104)&#xa;ELSE color_rgb(255,255,255)&#xa;END~~"/>
                 <property key="labeling/dataDefined/BufferTransp" value="1~~1~~CASE &#xa;WHEN &quot;waterway&quot; = 'river' THEN 100&#xa;ELSE 0&#xa;END~~"/>
                 <property key="labeling/dataDefined/Color" value="1~~1~~CASE &#xa;WHEN &quot;waterway&quot; = 'river' THEN  color_rgb( 71,97,132)&#xa;ELSE  color_rgb( 72,72,72)&#xa;END~~"/>
-                <property key="labeling/dataDefined/Size" value="1~~1~~CASE &#xa;WHEN $scale > 7250 THEN 10&#xa;ELSE 13&#xa;END~~"/>
+                <property key="labeling/dataDefined/Size" value="1~~1~~CASE &#xa;WHEN $scale > 7250 THEN 10&#xa;ELSE 11&#xa;END~~"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
@@ -4763,7 +4716,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="5000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="5000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>v_strassenstueck_lokname20141230173020664</id>
             <datasource>../data/strassen/v_strassenstueck_lokname.sqlite|layerid=0|subset="istoffiziellebezeichnung" = 0</datasource>
             <title></title>
@@ -4866,7 +4819,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="12"/>
+                <property key="labeling/fontSize" value="11"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
