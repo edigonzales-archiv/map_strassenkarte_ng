@@ -15,7 +15,7 @@
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="gemeindegrenzlinien_solothurn20141230164548300" name="gemeindegrenzlinien_solothurn">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="osm_roads_solothurn_220141230185430302" name="osm_roads_solothurn_2">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_roads_solothurn_220141230185430302" name="osm_roads_solothurn_2">
             <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="bahngeleise20141230190315559" name="bahngeleise">
@@ -56,10 +56,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>594130.3597958495374769</xmin>
-            <ymin>223736.55486706702504307</ymin>
-            <xmax>603750.60980562469922006</xmax>
-            <ymax>230300.07826558558735996</ymax>
+            <xmin>605763.09678683581296355</xmin>
+            <ymin>228362.16781037734472193</ymin>
+            <xmax>608168.15928927960339934</xmax>
+            <ymax>230003.04866000698530115</ymax>
         </extent>
         <rotation>0</rotation>
         <projections>0</projections>
@@ -137,8 +137,8 @@
                 <legendlayerfile isInOverview="0" layerid="gemeindegrenzlinien_solothurn20141230164548300" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="osm_roads_solothurn_2" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm_roads_solothurn_2" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="osm_roads_solothurn_220141230185430302" visible="1"/>
             </filegroup>
         </legendlayer>
@@ -2346,7 +2346,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="250000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Line" simplifyMaxScale="10000" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="250000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Line" simplifyMaxScale="10000" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>osm_roads_solothurn_220141230185430302</id>
             <datasource>../data/strassen/osm_roads_solothurn_2.shp</datasource>
             <title></title>
@@ -2482,7 +2482,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.8&#xa;WHEN $scale > 50000 AND $scale &lt; 100000 THEN 2.0&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 2.2&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 2.4&#xa;WHEN $scale &lt;= 12500 THEN 2.6&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.8&#xa;WHEN $scale > 50000 AND $scale &lt; 100000 THEN 2.0&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 2.2&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 2.4&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 2.6&#xa;WHEN $scale &lt;= 5000 THEN 3.0&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                         <layer pass="4" class="SimpleLine" locked="0">
@@ -2500,7 +2500,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.2&#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale &lt;= 12500 THEN 2.0&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.2&#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 2.0&#xa;WHEN $scale &lt;= 5000 THEN 2.4&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
@@ -2520,7 +2520,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.8&#xa;WHEN $scale > 50000 AND $scale &lt; 100000 THEN 2.0&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 2.2&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 2.4&#xa;WHEN $scale &lt;= 12500 THEN 2.6&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.8&#xa;WHEN $scale > 50000 AND $scale &lt; 100000 THEN 2.0&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 2.2&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 2.4&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 2.6&#xa;WHEN $scale &lt;= 5000 THEN 3.0&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                         <layer pass="4" class="SimpleLine" locked="0">
@@ -2538,7 +2538,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.2&#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale &lt;= 12500 THEN 2.0&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 100000 THEN 1.2&#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 2.0&#xa;WHEN $scale &lt;= 5000 THEN 2.4&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
@@ -2558,7 +2558,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale &lt;= 12500 THEN 2.0&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 2.0&#xa;WHEN $scale &lt;= 5000 THEN 2.6&#xa;END&#xa;&#xa;"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                         <layer pass="3" class="SimpleLine" locked="0">
@@ -2576,7 +2576,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 0.8&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.0&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.2&#xa;WHEN $scale &lt;= 12500 THEN 1.4&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 0.8&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.0&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.2&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 1.4&#xa;WHEN $scale &lt;= 5000 THEN 2&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
@@ -2596,7 +2596,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale &lt;= 12500 THEN 2.0&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 2.0&#xa;WHEN $scale &lt;= 5000 THEN 2.6&#xa;END&#xa;&#xa;"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                         <layer pass="3" class="SimpleLine" locked="0">
@@ -2614,7 +2614,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 0.8&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.0&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.2&#xa;WHEN $scale &lt;= 12500 THEN 1.4&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 0.8&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.0&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.2&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 1.4&#xa;WHEN $scale &lt;= 5000 THEN 2&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
@@ -2634,7 +2634,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE&#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.2&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.4&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.6&#xa;WHEN $scale &lt;= 12500 THEN 1.8&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 1.4&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.6&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.8&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 2.0&#xa;WHEN $scale &lt;= 5000 THEN 2.6&#xa;END&#xa;&#xa;"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                         <layer pass="1" class="SimpleLine" locked="0">
@@ -2652,7 +2652,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 0.6&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 0.8&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.0&#xa;WHEN $scale &lt;= 12500 THEN 1.2&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 50000 AND $scale &lt;= 100000 THEN 0.8&#xa;WHEN $scale > 25000 AND $scale &lt;= 50000 THEN 1.0&#xa;WHEN $scale > 12500 AND $scale &lt;= 25000 THEN 1.2&#xa;WHEN $scale > 5000 AND $scale &lt;= 12500 THEN 1.4&#xa;WHEN $scale &lt;= 5000 THEN 2&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
@@ -2672,7 +2672,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 7250 AND $scale &lt;= 12500 THEN 1&#xa;WHEN $scale &lt;= 7250 THEN 1.4&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 7250 AND $scale &lt;= 12500 THEN 1&#xa;WHEN $scale > 5000 AND $scale &lt;= 7250 THEN 1.4&#xa;WHEN $scale &lt;= 5000 THEN 2.0&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                         <layer pass="1" class="SimpleLine" locked="0">
@@ -2690,7 +2690,7 @@
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 7250 AND $scale &lt;= 12500 THEN 0.6&#xa;WHEN $scale &lt;= 7250 THEN 1&#xa;END"/>
+                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 7250 AND $scale &lt;= 12500 THEN 0.6&#xa;WHEN $scale > 5000 AND $scale &lt;= 7250 THEN 1&#xa;WHEN $scale &lt;= 5000 THEN 1.4&#xa;END"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
@@ -2738,8 +2738,8 @@
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefined/BufferColor" value="1~~1~~CASE &#xa;WHEN &quot;highway&quot; = 'motorway' THEN  color_rgb( 250,158,37)&#xa;WHEN &quot;highway&quot; IN ('motorway_link','trunk','trunk_link','primary','primary_link') THEN color_rgb(255,225,104)&#xa;ELSE color_rgb(255,255,255)&#xa;END~~"/>
                 <property key="labeling/dataDefined/BufferTransp" value="1~~1~~CASE &#xa;WHEN &quot;waterway&quot; = 'river' THEN 100&#xa;ELSE 0&#xa;END~~"/>
-                <property key="labeling/dataDefined/Color" value="1~~1~~CASE &#xa;WHEN &quot;waterway&quot; = 'river' THEN  color_rgb( 71,97,132)&#xa;ELSE  color_rgb( 72,72,72)&#xa;END~~"/>
-                <property key="labeling/dataDefined/Size" value="1~~1~~CASE &#xa;WHEN $scale > 7250 THEN 10&#xa;ELSE 11&#xa;END~~"/>
+                <property key="labeling/dataDefined/Color" value="0~~1~~CASE &#xa;WHEN &quot;waterway&quot; = 'river' THEN  color_rgb( 71,97,132)&#xa;ELSE  color_rgb( 72,72,72)&#xa;END~~"/>
+                <property key="labeling/dataDefined/Size" value="0~~1~~CASE &#xa;WHEN $scale > 7250 THEN 10&#xa;ELSE 11&#xa;END~~"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
@@ -2748,7 +2748,7 @@
                 <property key="labeling/distMapUnitMinScale" value="0"/>
                 <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="CASE &#xa;WHEN $scale &lt; 25000 AND $scale > 5000 AND &quot;type&quot; IN ('trunk','primary')  THEN &quot;name&quot;&#xa;WHEN $scale &lt; 25000 AND $scale > 5000 AND &quot;type&quot; IN ( 'trunk_link','primary_link','secondary','secondary_link','road','tertiary','tertiary_link') THEN &quot;name&quot;&#xa;END"/>
-                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Frutiger LT Com"/>
                 <property key="labeling/fontItalic" value="false"/>
@@ -2756,13 +2756,13 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSize" value="10"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWeight" value="75"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="true"/>
@@ -2779,7 +2779,7 @@
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multilineAlign" value="0"/>
                 <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="55 Roman"/>
+                <property key="labeling/namedStyle" value="65 Bold"/>
                 <property key="labeling/obstacle" value="true"/>
                 <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="3"/>
@@ -4716,7 +4716,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="5000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="5000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>v_strassenstueck_lokname20141230173020664</id>
             <datasource>../data/strassen/v_strassenstueck_lokname.sqlite|layerid=0|subset="istoffiziellebezeichnung" = 0</datasource>
             <title></title>
@@ -4811,7 +4811,7 @@
                 <property key="labeling/distMapUnitMinScale" value="0"/>
                 <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="text"/>
-                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Frutiger LT Com"/>
                 <property key="labeling/fontItalic" value="false"/>
@@ -4819,13 +4819,13 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSize" value="10"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWeight" value="75"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="false"/>
@@ -4842,7 +4842,7 @@
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multilineAlign" value="0"/>
                 <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="55 Roman"/>
+                <property key="labeling/namedStyle" value="65 Bold"/>
                 <property key="labeling/obstacle" value="false"/>
                 <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="3"/>
