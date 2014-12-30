@@ -1,0 +1,1 @@
+ogr2ogr --config PG_LIST_ALL_TABLES YES --config PG_SKIP_VIEWS YES -f "SQLite" av.sqlite -progress PG:"dbname='rosebud2' active_schema=av_mopublic schemas=av_mopublic host='localhost' port='5432' user='mspublic' password='mspublic' " -lco LAUNDER=yes -dsco SPATIALITE=yes -lco SPATIAL_INDEX=yes -gt 65536
