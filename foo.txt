@@ -17,6 +17,26 @@ Shapes runterladen und transformieren:
 
 ogr2ogr -f "SQLite" -dsco SPATIALITE=YES -s_srs epsg:4326 -t_srs epsg:21781 21781/roads.db roads.shp
 
+Zuschneiden auf Kanton Solothurn (händisch in QGIS, zuerst bbox auswählen und speichern, dann clippen mit ftools -> geht sicher eleganter mit ogr2ogr)
+
+GEMEINDEGRENZ-LINIEN
+====================
+Aus swissboundaries "hoheitsgrenzen" (das sind schon Linien). IN Qgis mit Spatial Query plugin "within" Kantonsgrenze.
+
+STRASSENNAMEN
+=============
+-- DROP VIEW av_avdpool_ch.v_strassenstueck_lokname;
+
+CREATE OR REPLACE VIEW av_avdpool_ch.v_strassenstueck_lokname AS 
+ SELECT a.ogc_fid, a.geometrie, a.anfangspunkt, b.text, c.istoffiziellebezeichnung, a.gem_bfs
+   FROM av_avdpool_ch.gebaeudeadressen_strassenstueck a, av_avdpool_ch.gebaeudeadressen_lokalisationsname b, av_avdpool_ch.gebaeudeadressen_lokalisation c
+  WHERE a.gem_bfs = b.gem_bfs AND a.strassenstueck_von::text = b.benannte::text
+  AND a.gem_bfs = c.gem_bfs AND a.strassenstueck_von = c.tid;
+
+ALTER TABLE av_avdpool_ch.v_strassenstueck_lokname OWNER TO stefan;
+GRANT ALL ON TABLE av_avdpool_ch.v_strassenstueck_lokname TO stefan;
+GRANT SELECT ON TABLE av_avdpool_ch.v_strassenstueck_lokname TO mspublic;
+
 
 GROSSE SEEN
 ===========
