@@ -3,49 +3,40 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="v_strassenstueck_lokname20141230173020664" name="v_strassenstueck_lokname">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="v_strassenstueck_lokname20141230201345953" name="v_strassenstueck_lokname">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141228191444975" name="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141230200756202" name="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141228191132581" name="swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="gemeindegrenzlinien_solothurn20141230200203259" name="gemeindegrenzlinien_solothurn">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET20141230202206522" name="swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141230200022204" name="swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="gemeindegrenzlinien_solothurn20141230164548300" name="gemeindegrenzlinien_solothurn">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_roads_solothurn_220141230194251933" name="osm_roads_solothurn_2">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="osm_roads_solothurn_220141230185430302" name="osm_roads_solothurn_2">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="bahngeleise20141230202320067" name="bahngeleise">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="bahngeleise20141230190315559" name="bahngeleise">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ortsnamen_pos220141230195708213" name="ortsnamen_pos2">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ortsnamen_pos220141230181609918" name="ortsnamen_pos2">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="av_bb20141230201002629" name="av_bb">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="av_bb20141230181945250" name="av_bb">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_lakes20141230201532018" name="osm_lakes">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="srtm_relief_grau20141228191009226" name="srtm_relief_grau">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="richtplan_wald20141230195200515" name="richtplan_wald">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="gewisso_gewisso20141228192852373" name="gewisso_gewisso">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="gewisso_gewisso20141230195329255" name="gewisso_gewisso">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="richtplan_wald20141228192055663" name="richtplan_wald">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="baugebiet_ts220141228191837858" name="baugebiet_ts2">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_lakes20141228192634153" name="osm_lakes">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET_copy20141228192226262" name="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET copy">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="baugebiet_ts220141230195814611" name="baugebiet_ts2">
             <customproperties/>
         </layer-tree-layer>
     </layer-tree-group>
@@ -53,10 +44,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>606451.66982439521234483</xmin>
-            <ymin>228342.06054821432917379</ymin>
-            <xmax>607052.93545000615995377</xmax>
-            <ymax>228752.28076062173931859</ymax>
+            <xmin>597534.17864306212868541</xmin>
+            <ymin>213623.57550902856746688</ymin>
+            <xmax>604383.56247119547333568</xmax>
+            <ymax>219867.50321927486220375</ymax>
         </extent>
         <rotation>0</rotation>
         <projections>0</projections>
@@ -72,126 +63,90 @@
                 <geographicflag>false</geographicflag>
             </spatialrefsys>
         </destinationsrs>
-        <layer_coordinate_transform_info>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="multilinestrings20141226133140946"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20141226144120456"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="dtm_kombiniert_5m20141226135801712"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20141226143207273"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20141226144206095"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="multipolygons20141226142104225"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_water20141226143323321"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141226142506482"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20141226143853300"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="landesgrenze20141226134425976"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20141226133221515"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="kantonsgrenzen20141226134425959"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="dtm_kombiniert20141226135933268"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_water20141226141736650"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_lakes20141226142430997"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="ch_so_agi_orthofoto20141226143429972"/>
-            <layer_coordinate_transform destAuthId="EPSG:21781" srcAuthId="EPSG:21781" srcDatumTransform="-1" destDatumTransform="-1" layerid="multipolygons20141226141210588"/>
-        </layer_coordinate_transform_info>
+        <layer_coordinate_transform_info/>
     </mapcanvas>
     <visibility-presets/>
     <layer-tree-canvas>
         <custom-order enabled="0">
-            <item>srtm_relief_grau20141228191009226</item>
-            <item>swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141228191132581</item>
-            <item>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141228191444975</item>
-            <item>baugebiet_ts220141228191837858</item>
-            <item>richtplan_wald20141228192055663</item>
-            <item>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET_copy20141228192226262</item>
-            <item>osm_lakes20141228192634153</item>
-            <item>gewisso_gewisso20141228192852373</item>
-            <item>gemeindegrenzlinien_solothurn20141230164548300</item>
-            <item>v_strassenstueck_lokname20141230173020664</item>
-            <item>ortsnamen_pos220141230181609918</item>
-            <item>av_bb20141230181945250</item>
-            <item>osm_roads_solothurn_220141230185430302</item>
-            <item>bahngeleise20141230190315559</item>
-            <item>swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET20141230202206522</item>
+            <item>osm_roads_solothurn_220141230194251933</item>
+            <item>richtplan_wald20141230195200515</item>
+            <item>gewisso_gewisso20141230195329255</item>
+            <item>ortsnamen_pos220141230195708213</item>
+            <item>baugebiet_ts220141230195814611</item>
+            <item>swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141230200022204</item>
+            <item>gemeindegrenzlinien_solothurn20141230200203259</item>
+            <item>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141230200756202</item>
+            <item>av_bb20141230201002629</item>
+            <item>v_strassenstueck_lokname20141230201345953</item>
+            <item>osm_lakes20141230201532018</item>
+            <item>bahngeleise20141230202320067</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="v_strassenstueck_lokname" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="v_strassenstueck_lokname20141230173020664" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="v_strassenstueck_lokname20141230201345953" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141228191444975" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141230200756202" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="gemeindegrenzlinien_solothurn" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="gemeindegrenzlinien_solothurn20141230200203259" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141228191132581" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141230200022204" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm_roads_solothurn_2" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET20141230202206522" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="osm_roads_solothurn_220141230194251933" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="gemeindegrenzlinien_solothurn" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bahngeleise" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="gemeindegrenzlinien_solothurn20141230164548300" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="osm_roads_solothurn_2" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="osm_roads_solothurn_220141230185430302" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="bahngeleise" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="bahngeleise20141230190315559" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="bahngeleise20141230202320067" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ortsnamen_pos2" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="ortsnamen_pos220141230181609918" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="ortsnamen_pos220141230195708213" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="av_bb" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="av_bb20141230181945250" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="srtm_relief_grau" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="srtm_relief_grau20141228191009226" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="gewisso_gewisso" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="gewisso_gewisso20141228192852373" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="richtplan_wald" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="richtplan_wald20141228192055663" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="baugebiet_ts2" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="baugebiet_ts220141228191837858" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="av_bb20141230201002629" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm_lakes" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="osm_lakes20141228192634153" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="osm_lakes20141230201532018" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET copy" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="richtplan_wald" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET_copy20141228192226262" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="richtplan_wald20141230195200515" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="gewisso_gewisso" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="gewisso_gewisso20141230195329255" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="baugebiet_ts2" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="baugebiet_ts220141230195814611" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="15">
+    <projectlayers layercount="12">
         <maplayer minimumScale="-4.65661e-10" maximumScale="25000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>av_bb20141230181945250</id>
+            <id>av_bb20141230201002629</id>
             <datasource>../data/av/av_bb.sqlite|layerid=0|subset="art" IN ('Gewaesser_fliessendes', 'geschlossener_Wald', 'Gebaeude')</datasource>
             <title></title>
             <abstract></abstract>
@@ -245,7 +200,7 @@
                     <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="color" v="179,209,255,255"/>
+                            <prop k="color" v="217,217,217,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -260,7 +215,7 @@
                     <symbol alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="color" v="210,228,200,255"/>
+                            <prop k="color" v="217,217,217,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -269,7 +224,7 @@
                             <prop k="outline_style" v="no"/>
                             <prop k="outline_width" v="0.26"/>
                             <prop k="outline_width_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
+                            <prop k="style" v="dense4"/>
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="fill" name="2">
@@ -487,7 +442,7 @@
             </edittypes>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>bahngeleise20141230190315559</id>
+            <id>bahngeleise20141230202320067</id>
             <datasource>../data/av/bahngeleise.sqlite</datasource>
             <title></title>
             <abstract></abstract>
@@ -536,47 +491,10 @@
             </edittypes>
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules key="{c77e8bb6-ad46-40da-be4e-9245cb5c4334}">
-                    <rule scalemaxdenom="25000" key="{5b0519f8-7a64-4fcb-a61c-1e5050bcc13c}" symbol="0" scalemindenom="1"/>
-                    <rule scalemaxdenom="100000" key="{d15e3170-af55-4280-93ab-0d5723d2c878}" symbol="1" scalemindenom="25000"/>
+                    <rule scalemaxdenom="100000" key="{d15e3170-af55-4280-93ab-0d5723d2c878}" symbol="0" scalemindenom="1"/>
                 </rules>
                 <symbols>
-                    <symbol alpha="1" type="line" name="0">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="160,160,160,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.6"/>
-                            <prop k="line_width_unit" v="MM"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                        </layer>
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="2;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="255,255,255,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.26"/>
-                            <prop k="line_width_unit" v="MM"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="use_custom_dash" v="1"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="0.698039" type="line" name="1">
+                    <symbol alpha="0.494118" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="customdash" v="5;2"/>
@@ -798,7 +716,7 @@
             </edittypes>
         </maplayer>
         <maplayer minimumScale="1" maximumScale="500000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>baugebiet_ts220141228191837858</id>
+            <id>baugebiet_ts220141230195814611</id>
             <datasource>../data/baugebiet_ts2/baugebiet_ts2.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -856,10 +774,10 @@
             </edittypes>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol alpha="0.34902" type="fill" name="0">
+                    <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="color" v="233,229,220,255"/>
+                            <prop k="color" v="247,247,247,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -1018,7 +936,7 @@
                 <property key="labeling/xOffset" value="0"/>
                 <property key="labeling/yOffset" value="0"/>
             </customproperties>
-            <blendMode>6</blendMode>
+            <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
             <displayfield>ogc_fid</displayfield>
@@ -1084,8 +1002,8 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="50000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>gemeindegrenzlinien_solothurn20141230164548300</id>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="250000" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>gemeindegrenzlinien_solothurn20141230200203259</id>
             <datasource>../data/swissboundaries/gemeindegrenzlinien_solothurn.sqlite</datasource>
             <title></title>
             <abstract></abstract>
@@ -1156,31 +1074,51 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules key="{59a08206-018c-47ee-86c7-347a4ad91d28}">
+                    <rule scalemaxdenom="100000" key="{5a53f621-6819-4f6a-8f4d-789c2932aa1e}" symbol="0" scalemindenom="50000"/>
+                    <rule scalemaxdenom="50000" key="{51932c71-1416-4f00-8d8d-c8d62de0972a}" symbol="1" scalemindenom="1" label="admin lvl 4"/>
+                </rules>
                 <symbols>
-                    <symbol alpha="0.643137" type="line" name="0">
+                    <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
-                            <prop k="customdash" v="2;1"/>
+                            <prop k="customdash" v="0.4;0.8"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="224,170,184,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.5"/>
+                            <prop k="line_color" v="172,172,172,255"/>
+                            <prop k="line_style" v="dot"/>
+                            <prop k="line_width" v="0.4"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="use_custom_dash" v="1"/>
-                            <prop k="width_expression" v="CASE&#xa;WHEN $scale > 25000 THEN 0.4&#xa;WHEN $scale &lt; 25000 THEN 0.5&#xa;END"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="1">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="customdash" v="0.6;1.2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="line_color" v="172,172,172,255"/>
+                            <prop k="line_style" v="dot"/>
+                            <prop k="line_width" v="0.6"/>
+                            <prop k="line_width_unit" v="MM"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="use_custom_dash" v="1"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation/>
-                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -1192,24 +1130,27 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="0.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidInside" value="false"/>
                 <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefined/BufferColor" value="0~~1~~CASE &#xa;WHEN &quot;highway&quot; = 'motorway' THEN  color_rgb( 250,158,37)&#xa;WHEN &quot;highway&quot; IN ('motorway_link','trunk','trunk_link','primary','primary_link') THEN color_rgb(255,225,104)&#xa;ELSE color_rgb(255,255,255)&#xa;END~~"/>
+                <property key="labeling/dataDefined/BufferTransp" value="1~~1~~CASE &#xa;WHEN &quot;waterway&quot; = 'river' THEN 100&#xa;ELSE 0&#xa;END~~"/>
+                <property key="labeling/dataDefined/Color" value="0~~1~~CASE &#xa;WHEN &quot;waterway&quot; = 'river' THEN  color_rgb( 71,97,132)&#xa;ELSE  color_rgb( 72,72,72)&#xa;END~~"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/dist" value="5"/>
+                <property key="labeling/distInMapUnits" value="true"/>
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="CASE &#xa;WHEN (&quot;highway&quot; is not null ) THEN &#xa;replace( replace( name, 'Avenue','Av.'), 'Boulevard', 'Bd.')&#xa;END"/>
                 <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Ubuntu"/>
@@ -1218,13 +1159,13 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSize" value="7.5"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="63"/>
+                <property key="labeling/fontWeight" value="75"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="true"/>
@@ -1237,14 +1178,14 @@
                 <property key="labeling/maxCurvedCharAngleIn" value="20"/>
                 <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
                 <property key="labeling/maxNumLabels" value="2000"/>
-                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/mergeLines" value="true"/>
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multilineAlign" value="0"/>
                 <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Medium"/>
+                <property key="labeling/namedStyle" value="Bold"/>
                 <property key="labeling/obstacle" value="true"/>
                 <property key="labeling/placeDirectionSymbol" value="0"/>
-                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placement" value="3"/>
                 <property key="labeling/placementFlags" value="10"/>
                 <property key="labeling/plussign" value="false"/>
                 <property key="labeling/preserveRotation" value="true"/>
@@ -1259,7 +1200,7 @@
                 <property key="labeling/rightDirectionSymbol" value=">"/>
                 <property key="labeling/scaleMax" value="10000000"/>
                 <property key="labeling/scaleMin" value="1"/>
-                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/scaleVisibility" value="true"/>
                 <property key="labeling/shadowBlendMode" value="6"/>
                 <property key="labeling/shadowColorB" value="0"/>
                 <property key="labeling/shadowColorG" value="0"/>
@@ -1316,9 +1257,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorB" value="72"/>
+                <property key="labeling/textColorG" value="72"/>
+                <property key="labeling/textColorR" value="72"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -1328,11 +1269,12 @@
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
-            <displayfield>uuid</displayfield>
+            <displayfield>[% "highway" %]
+[% "other_tags" %]</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
-                <family fieldname="" name="Ubuntu"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
                 <size fieldname="" units="pt" value="12"/>
                 <bold fieldname="" on="0"/>
                 <italic fieldname="" on="0"/>
@@ -1353,7 +1295,7 @@
             <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform>/home/OSGeo4W64/bin</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1407,7 +1349,7 @@
             </edittypes>
         </maplayer>
         <maplayer minimumScale="25000" maximumScale="500000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>gewisso_gewisso20141228192852373</id>
+            <id>gewisso_gewisso20141230195329255</id>
             <datasource>../data/gewisso/gewisso_gewisso.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -1512,7 +1454,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="179,209,255,255"/>
+                            <prop k="line_color" v="217,217,217,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="2"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -1777,7 +1719,7 @@
             </edittypes>
         </maplayer>
         <maplayer minimumScale="10000" maximumScale="500000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>ortsnamen_pos220141230181609918</id>
+            <id>ortsnamen_pos220141230195708213</id>
             <datasource>../data/av/ortsnamen_pos2.sqlite</datasource>
             <title></title>
             <abstract></abstract>
@@ -1798,7 +1740,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">ogr</provider>
-            <previewExpression>COALESCE( "namenpos_v", '&lt;NULL>' )</previewExpression>
+            <previewExpression></previewExpression>
             <vectorjoins/>
             <expressionfields/>
             <edittypes>
@@ -2094,8 +2036,8 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>osm_lakes20141228192634153</id>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>osm_lakes20141230201532018</id>
             <datasource>../data/seen/osm_lakes.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -2130,22 +2072,18 @@
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="ShapeburstFill" locked="0">
-                            <prop k="blur_radius" v="0"/>
-                            <prop k="color" v="163,198,254,255"/>
-                            <prop k="color1" v="0,0,255,255"/>
-                            <prop k="color2" v="0,255,0,255"/>
-                            <prop k="color_type" v="0"/>
-                            <prop k="discrete" v="0"/>
-                            <prop k="distance_map_unit_scale" v="0,0"/>
-                            <prop k="distance_unit" v="MM"/>
-                            <prop k="gradient_color2" v="179,209,255,255"/>
-                            <prop k="ignore_rings" v="0"/>
-                            <prop k="max_distance" v="5"/>
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="color" v="217,217,217,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
-                            <prop k="use_whole_shape" v="1"/>
+                            <prop k="outline_color" v="0,0,0,255"/>
+                            <prop k="outline_style" v="no"/>
+                            <prop k="outline_width" v="0.26"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -2337,8 +2275,8 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="250000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Line" simplifyMaxScale="10000" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>osm_roads_solothurn_220141230185430302</id>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="250000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Line" simplifyMaxScale="10000" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>osm_roads_solothurn_220141230194251933</id>
             <datasource>../data/strassen/osm_roads_solothurn_2.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -2411,7 +2349,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="173,99,39,255"/>
+                            <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="1"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2429,7 +2367,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="251,145,57,255"/>
+                            <prop k="line_color" v="129,129,129,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.8"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2449,7 +2387,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="173,99,39,255"/>
+                            <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="1"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2467,7 +2405,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="251,145,57,255"/>
+                            <prop k="line_color" v="129,129,129,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.8"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2487,7 +2425,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="184,161,76,255"/>
+                            <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="1.4"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2505,7 +2443,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="255,223,105,255"/>
+                            <prop k="line_color" v="143,143,143,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.8"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2525,7 +2463,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="143,143,143,255"/>
+                            <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="1"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2543,7 +2481,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="255,223,105,255"/>
+                            <prop k="line_color" v="143,143,143,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.8"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2563,7 +2501,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="143,143,143,255"/>
+                            <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.8"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2581,7 +2519,7 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="255,255,255,255"/>
+                            <prop k="line_color" v="143,143,143,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.6"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2594,32 +2532,14 @@
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="line" name="5">
-                        <layer pass="0" class="SimpleLine" locked="1">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="143,143,143,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.7"/>
-                            <prop k="line_width_unit" v="MM"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_expression" v="CASE &#xa;WHEN $scale > 7250 AND $scale &lt;= 12500 THEN 1&#xa;WHEN $scale > 5000 AND $scale &lt;= 7250 THEN 1.4&#xa;WHEN $scale &lt;= 5000 THEN 2.0&#xa;END"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                        </layer>
-                        <layer pass="1" class="SimpleLine" locked="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="round"/>
-                            <prop k="line_color" v="255,255,255,255"/>
+                            <prop k="line_color" v="220,220,220,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.6"/>
                             <prop k="line_width_unit" v="MM"/>
@@ -2638,7 +2558,7 @@
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="160,160,160,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.1"/>
@@ -2679,7 +2599,7 @@
                 <property key="labeling/dataDefined/Size" value="0~~1~~CASE &#xa;WHEN $scale > 7250 THEN 10&#xa;ELSE 11&#xa;END~~"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
+                <property key="labeling/dist" value="0.5"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
@@ -2720,7 +2640,7 @@
                 <property key="labeling/obstacle" value="true"/>
                 <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="3"/>
-                <property key="labeling/placementFlags" value="9"/>
+                <property key="labeling/placementFlags" value="10"/>
                 <property key="labeling/plussign" value="false"/>
                 <property key="labeling/preserveRotation" value="true"/>
                 <property key="labeling/previewBkgrdColor" value="#ffffff"/>
@@ -2825,7 +2745,7 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>.</editform>
+            <editform>../../..</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
             <annotationform>/OSGeo4W64/bin</annotationform>
@@ -2860,8 +2780,8 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="25000" maximumScale="500000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>richtplan_wald20141228192055663</id>
+        <maplayer minimumScale="25000" maximumScale="500000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>richtplan_wald20141230195200515</id>
             <datasource>../data/richtplan_wald/richtplan_wald.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -2905,18 +2825,18 @@
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
+                        <layer pass="2" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="color" v="210,228,200,255"/>
+                            <prop k="color" v="217,217,217,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
-                            <prop k="outline_color" v="0,0,0,255"/>
+                            <prop k="outline_color" v="114,133,132,255"/>
                             <prop k="outline_style" v="no"/>
                             <prop k="outline_width" v="0.26"/>
                             <prop k="outline_width_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
+                            <prop k="style" v="dense4"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -2950,7 +2870,7 @@
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
                 <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fieldName" value="CASE WHEN (&quot;natural&quot; = 'water' )&#xa;THEN &quot;name&quot; END"/>
                 <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Ubuntu"/>
@@ -2959,7 +2879,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSize" value="7"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
@@ -2969,7 +2889,7 @@
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="true"/>
-                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="false"/>
                 <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
                 <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
                 <property key="labeling/labelPerPart" value="false"/>
@@ -2979,7 +2899,7 @@
                 <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
                 <property key="labeling/maxNumLabels" value="2000"/>
                 <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/minFeatureSize" value="5"/>
                 <property key="labeling/multilineAlign" value="0"/>
                 <property key="labeling/multilineHeight" value="1"/>
                 <property key="labeling/namedStyle" value="Medium"/>
@@ -2990,7 +2910,7 @@
                 <property key="labeling/plussign" value="false"/>
                 <property key="labeling/preserveRotation" value="true"/>
                 <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
+                <property key="labeling/priority" value="9"/>
                 <property key="labeling/quadOffset" value="4"/>
                 <property key="labeling/repeatDistance" value="0"/>
                 <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -3057,9 +2977,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorB" value="132"/>
+                <property key="labeling/textColorG" value="97"/>
+                <property key="labeling/textColorR" value="71"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -3069,11 +2989,11 @@
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
-            <displayfield>OGC_FID</displayfield>
+            <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
-                <family fieldname="" name="Ubuntu"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
                 <size fieldname="" units="pt" value="12"/>
                 <bold fieldname="" on="0"/>
                 <italic fieldname="" on="0"/>
@@ -3091,10 +3011,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>.</editform>
+            <editform>../../..</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform>/home/OSGeo4W64/bin</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -3117,420 +3037,8 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="50000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
-            <id>srtm_relief_grau20141228191009226</id>
-            <datasource>../data/srtm/srtm_relief_grau.tif</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>srtm_relief_grau</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Value"/>
-            </customproperties>
-            <provider>gdal</provider>
-            <noData>
-                <noDataList bandNo="1" useSrcNoData="1"/>
-            </noData>
-            <pipe>
-                <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
-                    <rasterTransparency/>
-                    <contrastEnhancement>
-                        <minValue>33</minValue>
-                        <maxValue>255</maxValue>
-                        <algorithm>StretchToMinimumMaximum</algorithm>
-                    </contrastEnhancement>
-                </rasterrenderer>
-                <brightnesscontrast brightness="30" contrast="0"/>
-                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-                <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="bilinear"/>
-            </pipe>
-            <blendMode>6</blendMode>
-        </maplayer>
-        <maplayer minimumScale="50000" maximumScale="100000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET20141230202206522</id>
-            <datasource>../data/swissboundaries/swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET.shp</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <provider encoding="System">ogr</provider>
-            <previewExpression></previewExpression>
-            <vectorjoins/>
-            <expressionfields/>
-            <edittypes>
-                <edittype widgetv2type="TextEdit" name="UUID">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_ERST">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GRUND_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="OBJEKTART">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="BFS_NUMMER">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="BEZIRKSNUM">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="KANTONSNUM">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="NAME">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GEM_TEIL">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GEM_FLAECH">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="SEE_FLAECH">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ICC">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="SHN">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_Q">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="EINWOHNERZ">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="200,200,200,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.2"/>
-                            <prop k="line_width_unit" v="MM"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation/>
-                <sizescale scalemethod="area"/>
-            </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/angleOffset" value="0"/>
-                <property key="labeling/blendMode" value="0"/>
-                <property key="labeling/bufferBlendMode" value="0"/>
-                <property key="labeling/bufferColorA" value="255"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
-                <property key="labeling/bufferJoinStyle" value="64"/>
-                <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/bufferSizeInMapUnits" value="false"/>
-                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
-                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
-                <property key="labeling/bufferTransp" value="0"/>
-                <property key="labeling/centroidInside" value="false"/>
-                <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/decimals" value="3"/>
-                <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/distMapUnitMaxScale" value="0"/>
-                <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontBold" value="true"/>
-                <property key="labeling/fontCapitals" value="0"/>
-                <property key="labeling/fontFamily" value="Ubuntu"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontLetterSpacing" value="0"/>
-                <property key="labeling/fontLimitPixelSize" value="false"/>
-                <property key="labeling/fontMaxPixelSize" value="10000"/>
-                <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="11"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
-                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="63"/>
-                <property key="labeling/fontWordSpacing" value="0"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="true"/>
-                <property key="labeling/labelOffsetInMapUnits" value="true"/>
-                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
-                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="false"/>
-                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-                <property key="labeling/maxNumLabels" value="2000"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
-                <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Medium"/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placeDirectionSymbol" value="0"/>
-                <property key="labeling/placement" value="1"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="false"/>
-                <property key="labeling/preserveRotation" value="true"/>
-                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/quadOffset" value="4"/>
-                <property key="labeling/repeatDistance" value="0"/>
-                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
-                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
-                <property key="labeling/repeatDistanceUnit" value="1"/>
-                <property key="labeling/reverseDirectionSymbol" value="false"/>
-                <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="10000000"/>
-                <property key="labeling/scaleMin" value="1"/>
-                <property key="labeling/scaleVisibility" value="false"/>
-                <property key="labeling/shadowBlendMode" value="6"/>
-                <property key="labeling/shadowColorB" value="0"/>
-                <property key="labeling/shadowColorG" value="0"/>
-                <property key="labeling/shadowColorR" value="0"/>
-                <property key="labeling/shadowDraw" value="false"/>
-                <property key="labeling/shadowOffsetAngle" value="135"/>
-                <property key="labeling/shadowOffsetDist" value="1"/>
-                <property key="labeling/shadowOffsetGlobal" value="true"/>
-                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
-                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
-                <property key="labeling/shadowOffsetUnits" value="1"/>
-                <property key="labeling/shadowRadius" value="1.5"/>
-                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
-                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
-                <property key="labeling/shadowRadiusUnits" value="1"/>
-                <property key="labeling/shadowScale" value="100"/>
-                <property key="labeling/shadowTransparency" value="30"/>
-                <property key="labeling/shadowUnder" value="0"/>
-                <property key="labeling/shapeBlendMode" value="0"/>
-                <property key="labeling/shapeBorderColorA" value="255"/>
-                <property key="labeling/shapeBorderColorB" value="128"/>
-                <property key="labeling/shapeBorderColorG" value="128"/>
-                <property key="labeling/shapeBorderColorR" value="128"/>
-                <property key="labeling/shapeBorderWidth" value="0"/>
-                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeBorderWidthUnits" value="1"/>
-                <property key="labeling/shapeDraw" value="false"/>
-                <property key="labeling/shapeFillColorA" value="255"/>
-                <property key="labeling/shapeFillColorB" value="255"/>
-                <property key="labeling/shapeFillColorG" value="255"/>
-                <property key="labeling/shapeFillColorR" value="255"/>
-                <property key="labeling/shapeJoinStyle" value="64"/>
-                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeOffsetUnits" value="1"/>
-                <property key="labeling/shapeOffsetX" value="0"/>
-                <property key="labeling/shapeOffsetY" value="0"/>
-                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeRadiiUnits" value="1"/>
-                <property key="labeling/shapeRadiiX" value="0"/>
-                <property key="labeling/shapeRadiiY" value="0"/>
-                <property key="labeling/shapeRotation" value="0"/>
-                <property key="labeling/shapeRotationType" value="0"/>
-                <property key="labeling/shapeSVGFile" value=""/>
-                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeSizeType" value="0"/>
-                <property key="labeling/shapeSizeUnits" value="1"/>
-                <property key="labeling/shapeSizeX" value="0"/>
-                <property key="labeling/shapeSizeY" value="0"/>
-                <property key="labeling/shapeTransparency" value="0"/>
-                <property key="labeling/shapeType" value="0"/>
-                <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
-                <property key="labeling/upsidedownLabels" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
-                <property key="labeling/xOffset" value="0"/>
-                <property key="labeling/yOffset" value="0"/>
-            </customproperties>
-            <blendMode>0</blendMode>
-            <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>0</layerTransparency>
-            <displayfield>NAME</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Ubuntu"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-            <edittypes>
-                <edittype widgetv2type="TextEdit" name="UUID">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_ERST">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GRUND_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="OBJEKTART">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="BFS_NUMMER">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="BEZIRKSNUM">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="KANTONSNUM">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="NAME">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GEM_TEIL">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GEM_FLAECH">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="SEE_FLAECH">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ICC">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="SHN">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_Q">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="EINWOHNERZ">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="750000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141228191132581</id>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="750000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141230200022204</id>
             <datasource>../data/swissboundaries/swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -3902,7 +3410,7 @@
             </edittypes>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="750000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141228191444975</id>
+            <id>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141230200756202</id>
             <datasource>../data/swissboundaries/swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -4267,350 +3775,8 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET_copy20141228192226262</id>
-            <datasource>../data/swissboundaries/swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET.shp</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET copy</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <provider encoding="System">ogr</provider>
-            <previewExpression></previewExpression>
-            <vectorjoins/>
-            <expressionfields/>
-            <edittypes>
-                <edittype widgetv2type="TextEdit" name="UUID">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_ERST">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GRUND_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="OBJEKTART">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="SEE_FLAECH">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ICC">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_Q">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="LANDESFLAE">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="LAND_TEIL">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="NAME">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="EINWOHNERZ">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <renderer-v2 symbollevels="0" type="RuleRenderer">
-                <rules key="{df41f2d8-ee8b-4fe5-adfe-9164283f4b2f}">
-                    <rule scalemaxdenom="100000000" key="{4d7111b1-9fbe-47a5-b706-7dfa3ede4bec}" symbol="0" scalemindenom="1"/>
-                </rules>
-                <symbols>
-                    <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="color" v="240,237,229,255"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="outline_color" v="0,0,0,255"/>
-                            <prop k="outline_style" v="no"/>
-                            <prop k="outline_width" v="0.26"/>
-                            <prop k="outline_width_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-            </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/angleOffset" value="0"/>
-                <property key="labeling/blendMode" value="0"/>
-                <property key="labeling/bufferBlendMode" value="0"/>
-                <property key="labeling/bufferColorA" value="255"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
-                <property key="labeling/bufferJoinStyle" value="64"/>
-                <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/bufferSizeInMapUnits" value="false"/>
-                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
-                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
-                <property key="labeling/bufferTransp" value="0"/>
-                <property key="labeling/centroidInside" value="false"/>
-                <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/decimals" value="3"/>
-                <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/distMapUnitMaxScale" value="0"/>
-                <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontBold" value="true"/>
-                <property key="labeling/fontCapitals" value="0"/>
-                <property key="labeling/fontFamily" value="Ubuntu"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontLetterSpacing" value="0"/>
-                <property key="labeling/fontLimitPixelSize" value="false"/>
-                <property key="labeling/fontMaxPixelSize" value="10000"/>
-                <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="11"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
-                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="63"/>
-                <property key="labeling/fontWordSpacing" value="0"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="true"/>
-                <property key="labeling/labelOffsetInMapUnits" value="true"/>
-                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
-                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="false"/>
-                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-                <property key="labeling/maxNumLabels" value="2000"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
-                <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Medium"/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placeDirectionSymbol" value="0"/>
-                <property key="labeling/placement" value="1"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="false"/>
-                <property key="labeling/preserveRotation" value="true"/>
-                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/quadOffset" value="4"/>
-                <property key="labeling/repeatDistance" value="0"/>
-                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
-                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
-                <property key="labeling/repeatDistanceUnit" value="1"/>
-                <property key="labeling/reverseDirectionSymbol" value="false"/>
-                <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="10000000"/>
-                <property key="labeling/scaleMin" value="1"/>
-                <property key="labeling/scaleVisibility" value="false"/>
-                <property key="labeling/shadowBlendMode" value="6"/>
-                <property key="labeling/shadowColorB" value="0"/>
-                <property key="labeling/shadowColorG" value="0"/>
-                <property key="labeling/shadowColorR" value="0"/>
-                <property key="labeling/shadowDraw" value="false"/>
-                <property key="labeling/shadowOffsetAngle" value="135"/>
-                <property key="labeling/shadowOffsetDist" value="1"/>
-                <property key="labeling/shadowOffsetGlobal" value="true"/>
-                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
-                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
-                <property key="labeling/shadowOffsetUnits" value="1"/>
-                <property key="labeling/shadowRadius" value="1.5"/>
-                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
-                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
-                <property key="labeling/shadowRadiusUnits" value="1"/>
-                <property key="labeling/shadowScale" value="100"/>
-                <property key="labeling/shadowTransparency" value="30"/>
-                <property key="labeling/shadowUnder" value="0"/>
-                <property key="labeling/shapeBlendMode" value="0"/>
-                <property key="labeling/shapeBorderColorA" value="255"/>
-                <property key="labeling/shapeBorderColorB" value="128"/>
-                <property key="labeling/shapeBorderColorG" value="128"/>
-                <property key="labeling/shapeBorderColorR" value="128"/>
-                <property key="labeling/shapeBorderWidth" value="0"/>
-                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeBorderWidthUnits" value="1"/>
-                <property key="labeling/shapeDraw" value="false"/>
-                <property key="labeling/shapeFillColorA" value="255"/>
-                <property key="labeling/shapeFillColorB" value="255"/>
-                <property key="labeling/shapeFillColorG" value="255"/>
-                <property key="labeling/shapeFillColorR" value="255"/>
-                <property key="labeling/shapeJoinStyle" value="64"/>
-                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeOffsetUnits" value="1"/>
-                <property key="labeling/shapeOffsetX" value="0"/>
-                <property key="labeling/shapeOffsetY" value="0"/>
-                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeRadiiUnits" value="1"/>
-                <property key="labeling/shapeRadiiX" value="0"/>
-                <property key="labeling/shapeRadiiY" value="0"/>
-                <property key="labeling/shapeRotation" value="0"/>
-                <property key="labeling/shapeRotationType" value="0"/>
-                <property key="labeling/shapeSVGFile" value=""/>
-                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
-                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
-                <property key="labeling/shapeSizeType" value="0"/>
-                <property key="labeling/shapeSizeUnits" value="1"/>
-                <property key="labeling/shapeSizeX" value="0"/>
-                <property key="labeling/shapeSizeY" value="0"/>
-                <property key="labeling/shapeTransparency" value="0"/>
-                <property key="labeling/shapeType" value="0"/>
-                <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
-                <property key="labeling/upsidedownLabels" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
-                <property key="labeling/xOffset" value="0"/>
-                <property key="labeling/yOffset" value="0"/>
-            </customproperties>
-            <blendMode>6</blendMode>
-            <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>0</layerTransparency>
-            <displayfield>NAME</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Ubuntu"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform>../../map_strassenkarte/qgs</editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform>../../map_strassenkarte/qgs</annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-            <edittypes>
-                <edittype widgetv2type="TextEdit" name="UUID">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="DATUM_ERST">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ERSTELL_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="GRUND_AEND">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_J">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="HERKUNFT_M">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="OBJEKTART">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="SEE_FLAECH">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="ICC">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="REVISION_Q">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="LANDESFLAE">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="LAND_TEIL">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="NAME">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype widgetv2type="TextEdit" name="EINWOHNERZ">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-        </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="5000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>v_strassenstueck_lokname20141230173020664</id>
+            <id>v_strassenstueck_lokname20141230201345953</id>
             <datasource>../data/strassen/v_strassenstueck_lokname.sqlite|layerid=0|subset="istoffiziellebezeichnung" = 0</datasource>
             <title></title>
             <abstract></abstract>
@@ -4891,24 +4057,20 @@
         </Gui>
         <Digitizing>
             <LayerSnappingList type="QStringList">
-                <value>av_bb20141230181945250</value>
-                <value>baugebiet_ts220141228191837858</value>
-                <value>gemeindegrenzlinien_solothurn20141230164548300</value>
-                <value>gewisso_gewisso20141228192852373</value>
-                <value>ortsnamen_pos220141230181609918</value>
-                <value>osm_lakes20141228192634153</value>
-                <value>richtplan_wald20141228192055663</value>
-                <value>swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141228191132581</value>
-                <value>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141228191444975</value>
-                <value>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET_copy20141228192226262</value>
-                <value>v_strassenstueck_lokname20141230173020664</value>
-                <value>osm_roads_solothurn_220141230185430302</value>
-                <value>bahngeleise20141230190315559</value>
-                <value>swissBOUNDARIES3D_1_1_TLM_HOHEITSGEBIET20141230202206522</value>
+                <value>osm_roads_solothurn_220141230194251933</value>
+                <value>richtplan_wald20141230195200515</value>
+                <value>gewisso_gewisso20141230195329255</value>
+                <value>ortsnamen_pos220141230195708213</value>
+                <value>baugebiet_ts220141230195814611</value>
+                <value>swissBOUNDARIES3D_1_1_TLM_KANTONSGEBIET20141230200022204</value>
+                <value>gemeindegrenzlinien_solothurn20141230200203259</value>
+                <value>swissBOUNDARIES3D_1_1_TLM_LANDESGEBIET20141230200756202</value>
+                <value>av_bb20141230201002629</value>
+                <value>v_strassenstueck_lokname20141230201345953</value>
+                <value>osm_lakes20141230201532018</value>
+                <value>bahngeleise20141230202320067</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
-                <value>disabled</value>
-                <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
@@ -4936,8 +4098,6 @@
                 <value>1</value>
                 <value>1</value>
                 <value>1</value>
-                <value>1</value>
-                <value>1</value>
             </LayerSnappingToleranceUnitList>
             <LayerSnapToList type="QStringList">
                 <value>to_vertex_and_segment</value>
@@ -4952,12 +4112,8 @@
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
-                <value>to_vertex_and_segment</value>
-                <value>to_vertex_and_segment</value>
             </LayerSnapToList>
             <LayerSnappingToleranceList type="QStringList">
-                <value>10.000000</value>
-                <value>10.000000</value>
                 <value>10.000000</value>
                 <value>10.000000</value>
                 <value>10.000000</value>
